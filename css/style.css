@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    font-family: 'Gudea', sans-serif;
+}
+
+body{
+    background-image: url('../img/bk.jpg');
+    background-size: cover;
+}
+
+#push{
+    height: 30vh;
+}
+
+.bt{
+    background: white;
+    border: 2px solid black;
+	text-transform: uppercase;
+    padding: 12px 20px;
+    cursor: pointer;
+	transition: color 0.2s linear;
+	transition: background 0.2s linear;
+}
+
+fieldset{
+    text-align: center;
+    border: 1px solid gray;
+	margin: 10px auto;
+	padding: 12px 18px;
+	border-radius: 10px;
+    width:42%;
+    background: white;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    padding: 50px 0;
+}
+
+p{
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+	text-align: center;
+    font-weight: bold;
+    color: black;
+    transition: color 0.1s;
+}
+
+.border{
+	width: 200px;
+	height: 2px;
+	background: orange;
+	margin: auto;
+}
+
+a:hover{
+    color: gray;
+}
+
+.bt:hover{
+	color: #fff;
+	background: black;
+}
+
+input:focus, button:focus, textarea:focus{
+    outline: 0;
+}
+
+input{
+    text-align: center;
+    width: 300px;
+    height:50px;
+    border-radius: 8px;
+}
+
+textarea{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+}
